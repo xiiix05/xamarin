@@ -21,6 +21,13 @@
 		android:text="Make a Call"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_toRightOf="@id/PhoneNumberText"
+		android:layout_below="@id/PhoneNumberText"
 		android:id="@+id/CallButton" />
+	<Button
+		android:text="@string/callHistory"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/CallButton"
+		android:id="@+id/CallHistoryButton"
+		android:enabled="false" />
 </RelativeLayout>

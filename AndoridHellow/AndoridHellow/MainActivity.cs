@@ -11,7 +11,7 @@ namespace AndoridHellow
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
-    {
+    {        
         static readonly List<string> phoneNymbers = new List<string>();
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -19,7 +19,7 @@ namespace AndoridHellow
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
-
+            Comparer.
             Button callHistoryButton = FindViewById<Button>(Resource.Id.CallHistoryButton);
             callHistoryButton.Click += (sender, e) =>
             {
